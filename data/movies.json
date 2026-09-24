@@ -1,0 +1,74 @@
+[
+  {
+    "id": "charade",
+    "title": "Charade",
+    "year": 1963,
+    "genre": "Mystery & romance",
+    "sourceFile": "Charade (1963 poster).jpg",
+    "posterAlt": "Charade (1963) theatrical movie poster",
+    "image": "/images/movies/charade.webp"
+  },
+  {
+    "id": "the-general",
+    "title": "The General",
+    "year": 1926,
+    "genre": "Action & comedy",
+    "sourceFile": "The General (1926) - Movie Poster 2.png",
+    "posterAlt": "The General (1926) theatrical poster featuring Buster Keaton",
+    "image": "/images/movies/the-general.webp"
+  },
+  {
+    "id": "the-kid",
+    "title": "The Kid",
+    "year": 1921,
+    "genre": "Comedy & drama",
+    "sourceFile": "The Kid (1921) poster.jpg",
+    "posterAlt": "The Kid (1921) theatrical poster featuring Charlie Chaplin and Jackie Coogan",
+    "image": "/images/movies/the-kid.webp"
+  },
+  {
+    "id": "his-girl-friday",
+    "title": "His Girl Friday",
+    "year": 1940,
+    "genre": "Romantic comedy",
+    "sourceFile": "His Girl Friday (1940 poster).jpg",
+    "posterAlt": "His Girl Friday (1940) theatrical movie poster",
+    "image": "/images/movies/his-girl-friday.webp"
+  },
+  {
+    "id": "night-of-the-living-dead",
+    "title": "Night of the Living Dead",
+    "year": 1968,
+    "genre": "Horror",
+    "sourceFile": "Night Of The Living Dead (1968) - Poster.jpg",
+    "posterAlt": "Night of the Living Dead (1968) vintage horror movie poster",
+    "image": "/images/movies/night-of-the-living-dead.webp"
+  },
+  {
+    "id": "safety-last",
+    "title": "Safety Last!",
+    "year": 1923,
+    "genre": "Comedy & suspense",
+    "sourceFile": "Safety last poster.jpg",
+    "posterAlt": "Safety Last! (1923) theatrical movie poster",
+    "image": "/images/movies/safety-last.webp"
+  },
+  {
+    "id": "the-gold-rush",
+    "title": "The Gold Rush",
+    "year": 1925,
+    "genre": "Adventure & comedy",
+    "sourceFile": "Gold rush poster.jpg",
+    "posterAlt": "The Gold Rush (1925) theatrical poster featuring Charlie Chaplin",
+    "image": "/images/movies/the-gold-rush.webp"
+  },
+  {
+    "id": "the-phantom-of-the-opera",
+    "title": "The Phantom of the Opera",
+    "year": 1925,
+    "genre": "Horror & drama",
+    "sourceFile": "Phantom of the opera 1925 poster.jpg",
+    "posterAlt": "The Phantom of the Opera (1925) theatrical movie poster",
+    "image": "/images/movies/the-phantom-of-the-opera.webp"
+  }
+]
