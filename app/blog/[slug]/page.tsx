@@ -132,7 +132,7 @@ export default async function Article({ params }: { params: Promise<{ slug: stri
           '@type': 'BlogPosting',
           headline: p.title,
           description: p.description,
-          image: siteConfig.url + '/images/social.jpg',
+          image: siteConfig.url + siteConfig.socialImage,
           datePublished: p.published,
           dateModified: p.published,
           author: {

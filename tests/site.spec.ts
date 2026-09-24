@@ -62,7 +62,7 @@ test('every sitemap route renders unique, canonical, server-visible content and 
     }
   }
   const robots = await request.get('/robots.txt');
-  expect(await robots.text()).toContain('https://krooztvus.us/sitemap.xml');
+  expect(await robots.text()).toContain('https://krooziptv.vercel.app/sitemap.xml');
   expect((await request.get('/this-page-does-not-exist')).status()).toBe(404);
 });
 test('homepage preserves pricing priority and sends correct plan messages', async ({ page }) => {

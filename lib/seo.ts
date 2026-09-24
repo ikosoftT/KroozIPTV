@@ -4,7 +4,7 @@ export function pageMetadata(
   title: string,
   description: string,
   path: string,
-  image = '/images/social.jpg',
+  image = siteConfig.socialImage,
 ): Metadata {
   return {
     title,
@@ -17,8 +17,21 @@ export function pageMetadata(
       siteName: siteConfig.name,
       locale: siteConfig.locale,
       type: 'website',
-      images: [{ url: image, width: 1200, height: 630, alt: title }],
+      images: [
+        {
+          url: image,
+          width: 1200,
+          height: 630,
+          type: 'image/jpeg',
+          alt: siteConfig.socialImageAlt,
+        },
+      ],
     },
-    twitter: { card: 'summary_large_image', title, description, images: [image] },
+    twitter: {
+      card: 'summary_large_image',
+      title,
+      description,
+      images: [{ url: image, alt: siteConfig.socialImageAlt }],
+    },
   };
 }

@@ -5,14 +5,25 @@ import { Footer } from '@/components/footer';
 import { FloatingWhatsApp } from '@/components/whatsapp';
 import { SchemaScript } from '@/components/ui';
 import { siteConfig } from '@/lib/config';
+import { pageMetadata } from '@/lib/seo';
 import './globals.css';
 const manrope = Manrope({ subsets: ['latin'], display: 'swap', variable: '--font-manrope' });
 export const metadata: Metadata = {
+  ...pageMetadata('KroozIPTV | Entertainment on Your Terms', siteConfig.description, '/'),
   metadataBase: new URL(siteConfig.url),
   title: { default: 'KroozIPTV | Entertainment on Your Terms', template: '%s' },
   description: siteConfig.description,
   applicationName: siteConfig.name,
-  icons: { icon: '/icon.svg', apple: '/apple-icon.png' },
+  manifest: '/manifest.webmanifest',
+  icons: {
+    icon: [
+      { url: '/icon.svg', type: 'image/svg+xml' },
+      { url: '/brand/icon-32.png', type: 'image/png', sizes: '32x32' },
+      { url: '/brand/icon-16.png', type: 'image/png', sizes: '16x16' },
+    ],
+    shortcut: '/favicon.ico',
+    apple: [{ url: '/apple-icon.png', sizes: '180x180', type: 'image/png' }],
+  },
 };
 export const viewport: Viewport = { themeColor: '#090d13', width: 'device-width', initialScale: 1 };
 export default function RootLayout({ children }: { children: React.ReactNode }) {
@@ -35,7 +46,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 '@id': `${siteConfig.url}/#organization`,
                 name: siteConfig.name,
                 url: siteConfig.url,
-                logo: `${siteConfig.url}/brand/logo.svg`,
+                logo: `${siteConfig.url}/brand/logo.png`,
               },
               {
                 '@type': 'WebSite',

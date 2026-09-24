@@ -12,7 +12,8 @@
     "check:launch": "node scripts/check-launch.mjs",
     "format": "prettier --write app components data lib tests scripts *.ts *.mjs *.json",
     "format:check": "prettier --check app components data lib tests scripts *.ts *.mjs *.json",
-    "images:movies": "node scripts/download-movie-posters.mjs"
+    "images:movies": "node scripts/download-movie-posters.mjs",
+    "images:brand": "node scripts/create-brand-assets.mjs"
   },
   "dependencies": {
     "lucide-react": "1.48.0",

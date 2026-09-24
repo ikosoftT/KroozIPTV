@@ -121,7 +121,7 @@ Photographic source URLs and original assets:
 - Photography usage terms: https://unsplash.com/license
 - All diagram SVGs, logo treatment, and the TV frame are original project artwork/code.
 
-`public/images/social.jpg` is the default 1200×630 social asset. `scripts/create-assets.mjs` documents optimization and artwork generation; it expects source JPEG files only when regenerating photographic WebP assets. It is not required to run the website.
+`public/images/krooziptv-og.jpg` is the default 1200×630 social preview, with an editable SVG in `public/brand/social-preview.svg`. Run `npm run images:brand` to regenerate the preview, multi-resolution favicon, Apple touch icon, and PNG icons. `app/manifest.ts` exposes the 192px and 512px icons. `public/images/social.jpg` remains a compatibility copy. `scripts/create-assets.mjs` documents optimization and artwork generation; it expects source JPEG files only when regenerating photographic WebP assets. It is not required to run the website.
 
 ## Validation
 
